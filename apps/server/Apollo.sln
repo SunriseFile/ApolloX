@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4603E0E7-8AAE-429A-A4C0-71183F9DDE2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.Master", "src\Apollo.Master\Apollo.Master.csproj", "{60D66603-0F6B-4E6F-95B0-E8D13187F2E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.Database", "src\Apollo.Database\Apollo.Database.csproj", "{3098775B-82E0-4215-8DB3-86AE04E93CB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.Core", "src\Apollo.Core\Apollo.Core.csproj", "{5EA7C31B-147F-4070-AB5B-6678ECBF30AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.Identity", "src\Apollo.Identity\Apollo.Identity.csproj", "{E301FB11-14CC-4FEF-91E9-02908D7C337E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.Migrations", "src\Apollo.Migrations\Apollo.Migrations.csproj", "{0928C917-7CBB-4855-9F7F-B10D20B4734E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.Swagger", "src\Apollo.Swagger\Apollo.Swagger.csproj", "{0ADE40C2-3CDE-4069-B050-D56E91FFD7F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60D66603-0F6B-4E6F-95B0-E8D13187F2E9} = {4603E0E7-8AAE-429A-A4C0-71183F9DDE2A}
+		{3098775B-82E0-4215-8DB3-86AE04E93CB8} = {4603E0E7-8AAE-429A-A4C0-71183F9DDE2A}
+		{5EA7C31B-147F-4070-AB5B-6678ECBF30AE} = {4603E0E7-8AAE-429A-A4C0-71183F9DDE2A}
+		{E301FB11-14CC-4FEF-91E9-02908D7C337E} = {4603E0E7-8AAE-429A-A4C0-71183F9DDE2A}
+		{0928C917-7CBB-4855-9F7F-B10D20B4734E} = {4603E0E7-8AAE-429A-A4C0-71183F9DDE2A}
+		{0ADE40C2-3CDE-4069-B050-D56E91FFD7F9} = {4603E0E7-8AAE-429A-A4C0-71183F9DDE2A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60D66603-0F6B-4E6F-95B0-E8D13187F2E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D66603-0F6B-4E6F-95B0-E8D13187F2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D66603-0F6B-4E6F-95B0-E8D13187F2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D66603-0F6B-4E6F-95B0-E8D13187F2E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3098775B-82E0-4215-8DB3-86AE04E93CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3098775B-82E0-4215-8DB3-86AE04E93CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3098775B-82E0-4215-8DB3-86AE04E93CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3098775B-82E0-4215-8DB3-86AE04E93CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EA7C31B-147F-4070-AB5B-6678ECBF30AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA7C31B-147F-4070-AB5B-6678ECBF30AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA7C31B-147F-4070-AB5B-6678ECBF30AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA7C31B-147F-4070-AB5B-6678ECBF30AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E301FB11-14CC-4FEF-91E9-02908D7C337E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E301FB11-14CC-4FEF-91E9-02908D7C337E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E301FB11-14CC-4FEF-91E9-02908D7C337E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E301FB11-14CC-4FEF-91E9-02908D7C337E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0928C917-7CBB-4855-9F7F-B10D20B4734E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0928C917-7CBB-4855-9F7F-B10D20B4734E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0928C917-7CBB-4855-9F7F-B10D20B4734E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0928C917-7CBB-4855-9F7F-B10D20B4734E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ADE40C2-3CDE-4069-B050-D56E91FFD7F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADE40C2-3CDE-4069-B050-D56E91FFD7F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADE40C2-3CDE-4069-B050-D56E91FFD7F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADE40C2-3CDE-4069-B050-D56E91FFD7F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

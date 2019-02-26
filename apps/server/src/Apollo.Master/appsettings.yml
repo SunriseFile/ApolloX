@@ -1,0 +1,16 @@
+# Application urls
+urls: http://0.0.0.0:5000
+
+# Database properties
+connectionStrings:
+  mysql: Server=localhost; Port=3306; Database=apollo; Uid=root; Pwd=qwerty123;
+
+# Logging
+serilog:
+  minimumLevel:
+    default: Information
+
+# Identity
+jwt:
+  issuer: Apollo Sunrise File TM
+  key: SUPER_SECRET_KEY
